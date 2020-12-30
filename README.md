@@ -27,3 +27,28 @@
 （3）	如何利用自动网络架构搜索和3D卷积神经网络构造高效的视频超分模型
 目前的图像超分方法主要集中在空间超分辨率上面，对于视频中存在的帧与帧之间的关系研究和利用比较少，更没有考虑在实际应用中存在的雾和暗光等场景。首先，设计一个用于处理复杂场景的超分网络是极其复杂的。其次，如果直接对单帧视频进行超分，则容易导致超分结果存在不连续性。因此结合网络架构自动化搜索，结合交通监控视频中的时空信息，研究复杂环境下的视频超分辨率方法是本研究需要解决的另一个关键问题。
 
+
+
+Zhengxiong Luo, Yan Huang, Shang Li, Liang Wang, Tieniu Tan. Unfolding the Alternating Optimization for Blind Super Resolution. NeurIPS, 2020.
+
+图像超分：
+早期的图像超分方法通过
+
+
+Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew P. Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, and Wenzhe Shi. Photo-realistic single image super-resolution using a generative adversarial network. In CVPR, 2017.
+
+Bee Lim, Sanghyun Son, Heewon Kim, Seungjun Nah, and Kyoung Mu Lee. Enhanced deep residual networks for single image super-resolution. In CVPRW, 2017.
+
+Yulun Zhang, Yapeng Tian, Yu Kong, Bineng Zhong, and Yun Fu. Residual dense network for image super-resolution. In CVPR, 2018.
+M. Haris, G. Shakhnarovich, and N. Ukita, “Deep backprojection networks for super-resolution,” in CVPR, 2018.
+Z. Li, J. Yang, Z. Liu, X. Yang, G. Jeon, and W. Wu. Feedback network for image super-resolution. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3867–3876, 2019. 6
+
+H. Ren, M. El-Khamy, and J. Lee, “Image super resolution based on fusing multiple convolution neural networks,” in CVPRW, 2017. 
+Y. Hu, X. Gao, J. Li, Y. Huang, and H. Wang, “Single image superresolution via cascaded multi-scale cross network,” arXiv, 2018.
+ Z. Hui, X. Wang, and X. Gao, “Fast and accurate single image superresolution via information distillation network,” in CVPR, 2018.
+
+Ben Niu, Weilei Wen, Wenqi Ren, Xiangde Zhang, Lianping Yang, Shuzhen Wang, Kaihao Zhang, Xiaochun Cao, Haifeng Shen. Single Image Super-Resolution via a Holistic Attention Network. ECCV 2020.
+
+SRResNet【Ledig】 和 EDSR【Lim】 通过残差模块提高超分模型的效果。SRDenseNet 则通过应用密集链接模块提高超分模型的效果。Zhang等人则通过结合全局残差和密集链接来提高深度模型的超分效果。DDBPN【Haris】 则通过反馈机制提高超分精度。Li等人则应用反馈机制提高模型的特征表达能力。为了得到不同尺度的特征表达，多个分支的网络被提出来并应用于超分模型的设计。Niu等人则通过通道和空间注意力机制提高模型的超分效果
+
+
