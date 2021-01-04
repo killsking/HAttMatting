@@ -1,3 +1,5 @@
+https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/files/NH-HAZE.zip
+
 低光照重建
 
 所提算法由两个网络组成，一个网络用于重构原始图像，一个网络用于暗光增强，两个网络共享编码层。
