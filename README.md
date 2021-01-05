@@ -53,4 +53,75 @@ Ben Niu, Weilei Wen, Wenqi Ren, Xiangde Zhang, Lianping Yang, Shuzhen Wang, Kaih
 
 SRResNet【Ledig】 和 EDSR【Lim】 通过残差模块提高超分模型的效果。SRDenseNet 则通过应用密集链接模块提高超分模型的效果。Zhang等人则通过结合全局残差和密集链接来提高深度模型的超分效果。DDBPN【Haris】 则通过反馈机制提高超分精度。Li等人则应用反馈机制提高模型的特征表达能力。为了得到不同尺度的特征表达，多个分支的网络被提出来并应用于超分模型的设计。Niu等人则通过通道和空间注意力机制提高模型的超分效果
 
+Zhengxiong Luo, Yan Huang, Shang Li, Liang Wang, Tieniu Tan. Unfolding the Alternating Optimization for Blind Super Resolution. NeurIPS, 2020.
+
+图像超分：
+早期的图像超分方法通过
+
+
+Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew P. Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, and Wenzhe Shi. Photo-realistic single image super-resolution using a generative adversarial network. In CVPR, 2017.
+
+Bee Lim, Sanghyun Son, Heewon Kim, Seungjun Nah, and Kyoung Mu Lee. Enhanced deep residual networks for single image super-resolution. In CVPRW, 2017.
+
+Yulun Zhang, Yapeng Tian, Yu Kong, Bineng Zhong, and Yun Fu. Residual dense network for image super-resolution. In CVPR, 2018.
+M. Haris, G. Shakhnarovich, and N. Ukita, “Deep backprojection networks for super-resolution,” in CVPR, 2018.
+Z. Li, J. Yang, Z. Liu, X. Yang, G. Jeon, and W. Wu. Feedback network for image super-resolution. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3867–3876, 2019. 6
+
+H. Ren, M. El-Khamy, and J. Lee, “Image super resolution based on fusing multiple convolution neural networks,” in CVPRW, 2017. 
+Y. Hu, X. Gao, J. Li, Y. Huang, and H. Wang, “Single image superresolution via cascaded multi-scale cross network,” arXiv, 2018.
+ Z. Hui, X. Wang, and X. Gao, “Fast and accurate single image superresolution via information distillation network,” in CVPR, 2018.
+
+Ben Niu, Weilei Wen, Wenqi Ren, Xiangde Zhang, Lianping Yang, Shuzhen Wang, Kaihao Zhang, Xiaochun Cao, Haifeng Shen. Single Image Super-Resolution via a Holistic Attention Network. ECCV 2020.
+
+SRResNet【Ledig】 和 EDSR【Lim】 通过残差模块提高超分模型的效果。SRDenseNet 则通过应用密集链接模块提高超分模型的效果。Zhang等人则通过结合全局残差和密集链接来提高深度模型的超分效果。DDBPN【Haris】 则通过反馈机制提高超分精度。Li等人则应用反馈机制提高模型的特征表达能力。为了得到不同尺度的特征表达，多个分支的网络被提出来并应用于超分模型的设计。Niu等人则通过通道和空间注意力机制提高模型的超分效果。
+
+。
+H. Ibrahim and N. S. P. Kong, “Brightness preserving dynamic histogram equalization for image contrast enhancement,” IEEE Transactions on Consumer Electronics, vol. 53, no. 4, pp. 1752–1758, 2007.
+C. Lee, C. Lee, and C.-S. Kim, “Contrast enhancement based on layered difference representation of 2d histograms,” IEEE transactions on image processing (TIP), vol. 22, no. 12, pp. 5372–5384, 2013.
+
+
+D. J. Jobson, Z.-u. Rahman, and G. A. Woodell, “A multiscale retinex for bridging the gap between color images and the human observation of scenes,” IEEE Transactions on Image processing, vol. 6, no. 7, pp. 965–976, 1997.
+
+D. J. Jobson, Z.-u. Rahman, and G. A. Woodell, “Properties and performance of a center/surround retinex,” IEEE Transactions on Image processing, vol. 6, no. 3, pp. 451–462, 1997.
+Z. Ying, G. Li, Y. Ren, R. Wang, and W. Wang, “A new low-light image enhancement algorithm using camera response model,” in Proceedings of the IEEE International Conference on Computer Vision, 2017, pp. 3015–3022.
+
+K. G. Lore, A. Akintayo, and S. Sarkar, “L lnet: A deep autoencoder approach to natural low-light image enhancement,” Pattern Recognition, vol. 61, pp. 650–662, 2017.
+Chen Wei, Wenjing Wang, “Deep retinex decomposition for low-light enhancement,” British Machine Vision Conference (BMVC), 2018.
+
+A.	Ignatov, N. Kobyshev, R. Timofte, K. Vanhoey, and L. Van Gool, “Dslr-quality photos on mobile devices with deep convolutional networks,” in Proceedings of the IEEE International Conference on Computer Vision, 2017, pp. 3277–3285.
+Z. Hui, X. Wang, L. Deng, and X. Gao, “Perception-preserving convolutional networks for image enhancement on smartphones,” in ECCV Workshop, 2018, pp. 197–213.
+
+A.	Ignatov, N. Kobyshev, R. Timofte, K. Vanhoey, and L. Van Gool, “Wespe: weakly supervised photo enhancer for digital cameras,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops, 2018, pp. 691–700.
+Chen Chen, Qifeng Chen and V. Koltun, “Learning to see in the dark,” in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
+
+Ren, W., Liu, S., Ma, L., Qianqian, X., Xiangyu, X., Cao, X., Junping, D., Yang, M.-H.: Low-light image enhancement via a deep hybrid network,” IEEE Trans. Image Process. 28(9), 4364–4375 (2019)
+
+Xu, K., Yang, X., Yin, B., & Lau, R. W., “Learning to Restore Low-Light Images via Decomposition-and-Enhancement,” in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+@inproceedings{wei2020physics,
+   title={A Physics-based Noise Formation Model for Extreme Low-light Raw Denoising},
+   author={Wei, Kaixuan and Fu, Ying and Yang, Jiaolong and Huang, Hua},
+   booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
+   year={2020},
+ }
+@inproceedings{Zero-DCE,
+ author = {Guo, Chunle Guo and Li, Chongyi and Guo, Jichang and Loy, Chen Change and Hou, Junhui and Kwong, Sam and Cong, Runmin},
+ title = {Zero-reference deep curve estimation for low-light image enhancement},
+ booktitle = {Proceedings of the IEEE conference on computer vision and pattern recognition (CVPR)},
+ pages    = {1780-1789},
+ month = {June},
+ year = {2020}
+}
+
+
+这些基于直方图均衡化的暗光增强的区别主要在于应用不同的先验和限制。如BPDHE应用增强结果保留图像的亮度的动态得到增强结果，LDR则关注于每个层的直方图之间的表示，通过增大相邻像素之间的差异达到增强的目的。
+有一些暗光增强的算法则是基于Retinex理论，这个理论假设一幅图像可以表示为反射层（R）和光照层（L）。MSR [11] and SSR [12]尝试通过恢复和使用光照层来到大暗光增强的目的. Ying等人通过双曝光策略和相机反应模型做暗光增强。
+最近，基于深度学习的暗光增强算法成为学界主要的研究对象。很多工具如端到端模型和GAN模型已经被用于图像增强算法。LLNet使用多层感知机构造的自编码网络进行图像增强和去噪。RetinexNet则通过将Retinex理论和CNN结合去估计光照层并通过调节光照层达到暗光增强的目的。DPED通过合成感知损失函数（composite perceptual error function）设计了一个从低质手机照片转换为高质量照片的端到端增强算法。PPCN应用老师-学生策略学习一个紧凑的网络以减少推理时间。WESPE则基于弱监督提出了一个可以缓减成对数据集要求的暗光增强算法。Chen等人设计了一个从原始感光照片进行基于CNN的暗光增强算法。Ren等人提出了一个基于混合网络的暗光增强算法。Xu等人设计了一个将图像在频率域进行分解和增强的模型，从而避免在增强的过程中导致噪声放大的问题。Wei等人提出了一个从感光器件原始数据进行暗光增强的算法。Guo等人提出了一个无参考曲线估计暗光增强算法。
+
+
+Deng, Q., Huang, Z., Tsai, C. C., & Lin, C. W. (2020, August). HardGAN: A Haze-Aware Representation Distillation GAN for Single Image Dehazing. In European Conference on Computer Vision (pp. 722-738). Springer, Cham.
+Dong et al, Multi-Scale Boosted Dehazing Network with Dense Feature Fusion. (CVPR)
+Qin et al, FFA-Net: Feature Fusion Attention Network for Single Image Dehazing
+Dong et al, FD-GAN: Generative Adversarial Networks with Fusion-discriminator for Single Image Dehazing.
+Shao et al, Domain Adaptation for Image Dehazing
+Deng等提出了困难感知的去雾算法。Qin等人提出了一个特征注意力机制来提高去雾算法的性能。Dong提出了一个双判别器对抗生成网络去雾算法。Shao等人提出了一个域适应的去雾算法来提高去雾算法在自然图像上面的性能。Dong提出了一个基于boost和特征融合的去雾的去雾算法。
 
