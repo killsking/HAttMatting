@@ -1,3 +1,16 @@
+
+It should be pointed out that the experiments are conducted with similar architecture except the position of density generator. The architectures used in experiments have same depth of the pyramid, so the influence of the depth of the pyramid is eliminated. We also admit that the high depth of the pyramid boosts the dehazing performance. The high resolution transmission map contains much details than low resolution transmission map. The details are hard to be predicted accurately. As shown in Figure, due to the incorrect transmission map, the dehazed result contains haze.
+
+The start point of the proposed model is similar to ‘Karras et al.’, and we construct an image pyramid from coarse to fine scale. First, we obtain a coarse dehazed result with the help of haze density map. Second, we refine the dehazed result by adding the details. The different is that we use the coarse density map to restore the coarse dehazed result. At each level we add GAN to improve the dehazing quality similar to ‘Karras et al.’ We also test the influence of the density map generator. Without the help of density map generator, the coarse dehazed result contains some haze, which is hard to be removed by decoder and GAN. As we can see, with the help of density map generator, the coarse dehazed result is much cleaner, and with the help of GAN the image details can be recover processly.
+
+
+
+
+
+We insert the proposed density generator to the decoder at different scales to generate transmission maps with different resolution. We show two examples of the model architecture in Figure. The only different is the position of the density generator in the decoder level. The experiments can show the influence of the different sizes transmission maps. The PSNR is used to show the differences of the generated dehazed result and the ground truth. As shown in Table, the dehazed results with low-resolution transmission map have higher PSNR valuses.
+
+
+
 https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/files/NH-HAZE.zip
 https://github.com/eezkni/UEGAN
 低光照重建
