@@ -1,4 +1,126 @@
+@article{meng2020gia,
+  title={GIA-Net: Global Information Aware Network for Low-light Imaging},
+  author={Meng, Zibo and Xu, Runsheng and Ho, Chiu Man},
+  journal={arXiv e-prints},
+  pages={arXiv--2009},
+  year={2020}
+}
 
+@article{kwon2020dale,
+  title={DALE: Dark Region-Aware Low-light Image Enhancement},
+  author={Kwon, Dokyeong and Kim, Guisik and Kwon, Junseok},
+  journal={arXiv preprint arXiv:2008.12493},
+  year={2020}
+}
+
+@inproceedings{yang2020fidelity,
+  title={From fidelity to perceptual quality: A semi-supervised approach for low-light image enhancement},
+  author={Yang, Wenhan and Wang, Shiqi and Fang, Yuming and Wang, Yue and Liu, Jiaying},
+  booktitle=CVPR,
+  pages={3063--3072},
+  year={2020}
+}
+
+@inproceedings{atoum2020color,
+  title={Color-wise Attention Network for Low-light Image Enhancement},
+  author={Atoum, Yousef and Ye, Mao and Ren, Liu and Tai, Ying and Liu, Xiaoming},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={506--507},
+  year={2020}
+}
+
+@article{lv2019attention,
+  title={Attention guided low-light image enhancement with a large scale low-light simulation dataset},
+  author={Lv, Feifan and Li, Yu and Lu, Feng},
+  journal={arXiv: 1908.00682},
+  year={2019}
+}
+@inproceedings{guo2020zero,
+  title={Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement},
+  author={Guo, Chunle and Li, Chongyi and Guo, Jichang and Loy, Chen Change and Hou, Junhui and Kwong, Sam and Cong, Runmin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1780--1789},
+  year={2020}
+}
+
+@inproceedings{wei2020physics,
+  title={A Physics-based Noise Formation Model for Extreme Low-light Raw Denoising},
+  author={Wei, Kaixuan and Fu, Ying and Yang, Jiaolong and Huang, Hua},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2758--2767},
+  year={2020}
+}
+
+@article{fu2020learning,
+  title={Learning an Adaptive Model for Extreme Low-light Raw Image Processing},
+  author={Fu, Qingxu and Di, Xiaoguang and Zhang, Yu},
+  journal={arXiv preprint arXiv:2004.10447},
+  year={2020}
+}
+@article{wang2020extreme,
+  title={Extreme Low-Light Imaging with Multi-granulation Cooperative Networks},
+  author={Wang, Keqi and Gao, Peng and Hoi, Steven and Guo, Qian and Qian, Yuhua},
+  journal={arXiv preprint arXiv:2005.08001},
+  year={2020}
+}
+
+@article{karadeniz2020burst,
+  title={Burst Denoising of Dark Images},
+  author={Karadeniz, Ahmet Serdar and Erdem, Erkut and Erdem, Aykut},
+  journal={arXiv preprint arXiv:2003.07823},
+  year={2020}
+}
+
+@inproceedings{chen2018learning,
+  title={Learning to see in the dark},
+  author={Chen, Chen and Chen, Qifeng and Xu, Jia and Koltun, Vladlen},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={3291--3300},
+  year={2018}
+}
+
+@article{xiong2020unsupervised,
+  title={Unsupervised Real-world Low-light Image Enhancement with Decoupled Networks},
+  author={Xiong, Wei and Liu, Ding and Shen, Xiaohui and Fang, Chen and Luo, Jiebo},
+  journal={arXiv preprint arXiv:2005.02818},
+  year={2020}
+}
+@article{liang2020deep,
+  title={Deep Bilateral Retinex for Low-Light Image Enhancement},
+  author={Liang, Jinxiu and Xu, Yong and Quan, Yuhui and Wang, Jingwen and Ling, Haibin and Ji, Hui},
+  journal={arXiv preprint arXiv:2007.02018},
+  year={2020}
+}
+@inproceedings{zhang2020attention,
+  title={Attention-based network for low-light image enhancement},
+  author={Zhang, Cheng and Yan, Qingsen and Zhu, Yu and Li, Xianjun and Sun, Jinqiu and Zhang, Yanning},
+  booktitle={2020 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={1--6},
+  year={2020},
+  organization={IEEE}
+}
+
+@article{li2020visual,
+  title={Visual Perception Model for Rapid and Adaptive Low-light Image Enhancement},
+  author={Li, Xiaoxiao and Guo, Xiaopeng and Mei, Liye and Shang, Mingyu and Gao, Jie and Shu, Maojing and Wang, Xiang},
+  journal={arXiv preprint arXiv:2005.07343},
+  year={2020}
+}
+
+@article{zhang2020self,
+  title={Self-supervised Image Enhancement Network: Training with Low Light Images Only},
+  author={Zhang, Yu and Di, Xiaoguang and Zhang, Bin and Wang, Chunhui},
+  journal={arXiv},
+  pages={arXiv--2002},
+  year={2020}
+}
+@inproceedings{xu2020learning,
+  title={Learning to Restore Low-Light Images via Decomposition-and-Enhancement},
+  author={Xu, Ke and Yang, Xin and Yin, Baocai and Lau, Rynson WH},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2281--2290},
+  year={2020}
+}
 We study the reasons for why low resolution transmission map achieves the highest dehazing performance in deep. We obtain three reasons for this. First, the proposed model decompose the dehazing problem into two phases, which restores a coarse dehazed result and then refines the image details. With the help of low resolution transmission map, the proposed model can restore a high quality coarse dehazed result, and then the decoder can refine the image details with multi-scale GAN. Second, the high resolution transmission map contains much details than low resolution transmission map. The details are hard to be predicted accurately. If the transmission map is not correct, which will mislead the dehazing processing. As shown in Figure, due to the incorrect transmission map, the dehazed result contains haze. Third, predicting a high resolution transmission map accurately needs higher model capacity, which results in a more complexity model. The model proposed in this paper is also consider the execute time and design a fast dehazing model, which is not suitable for predicting a high resolution transmission map accurately. We also notice that the predicted high resolution transmission map contains some details, which is not presented in ground truth.
 
 It should be pointed out that the experiments are conducted with similar architecture except the position of density generator. The architectures used in experiments have same depth of the pyramid, so the influence of the depth of the pyramid is eliminated. We also admit that the high depth of the pyramid boosts the dehazing performance. First, the high resolution transmission map contains much details than low resolution transmission map. The details are hard to be predicted accurately. If the transmission map is not correct, which will mislead the dehazing processing. As shown in Figure, due to the incorrect transmission map, the dehazed result contains haze. Second, predicting a high resolution transmission map accurately needs higher model capacity, which results in a more complexity model.
