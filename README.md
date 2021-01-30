@@ -1,3 +1,87 @@
+早期通过应用白天雾模型对夜晚有雾图像进行去雾的方法通常需要颜色转换等后处理技术。
+Pei等[32]首先应用颜色转换技术将一幅看起来偏蓝的图像转为偏灰色的图像，然后应用暗通道
+和双边滤波去除图像中的雾。类似的，Jiang等通过考虑夜间图像的光照特性来进行夜间图像去雾。
+Zhang等通过在白天雾模型的基础引入光照变换来对夜间有雾图像进行建模。基于这个模型，Zhang等人
+通过最大光照先验来去雾。Li等暗光层建模为环境光和大气
+点扩散函数的卷积并将夜间有雾图像建模为标准有雾图像和暗光层相加的图像。基于这个模型，这个暗光层可以被分离，并且可以应用
+暗通道先验和最大亮度对标准有雾图像进行去雾。Yang等人通过引入超像素去抑制暗光层和去雾。
+
+一些基于融合的方法也被应用于夜间去雾，Ancuti等提出了一个有效的多尺度融合技术将多幅图像融合到一起得到去雾结果。
+夜间有雾图像通常具有非均匀大气光，而通过对不同尺寸估计得到的大气光进行平均可以得到非均匀大气光。Yu等则提出了基于亮度感知
+的像素级融合方法估计透射率图。
+
+
+最近基于学习的方法也被应用于夜间图像去雾。一些方法通过自动学习得到暗光层的特性来消除暗光层的影响。Zhang等通过利用白天图像
+已经对应的深度图、语义图等合成得到夜间有雾图像。随后，Zhang等人设计了一个基于MobileNetv2网络架构的夜间去雾算法。
+
+@inproceedings{zhang2020nighttime,
+  title={Nighttime dehazing with a synthetic benchmark},
+  author={Zhang, Jing and Cao, Yang and Zha, Zheng-Jun and Tao, Dacheng},
+  booktitle={Proceedings of the 28th ACM International Conference on Multimedia},
+  pages={2355--2363},
+  year={2020}
+}
+
+@article{ancuti2020day,
+  title={Day and night-time dehazing by local airlight estimation},
+  author={Ancuti, Cosmin and Ancuti, Codruta O and De Vleeschouwer, Christophe and Bovik, Alan C},
+  journal={IEEE Transactions on Image Processing},
+  volume={29},
+  pages={6264--6275},
+  year={2020},
+  publisher={IEEE}
+}
+
+@inproceedings{ancuti2018effective,
+  title={Effective local airlight estimation for image dehazing},
+  author={Ancuti, Codruta O and Ancuti, Cosmin and De Vleeschouwer, Christophe},
+  booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)},
+  pages={2850--2854},
+  year={2018},
+  organization={IEEE}
+}
+
+@inproceedings{ancuti2016night,
+  title={Night-time dehazing by fusion},
+  author={Ancuti, Cosmin and Ancuti, Codruta O and De Vleeschouwer, Christophe and Bovik, Alan C},
+  booktitle={2016 IEEE International Conference on Image Processing (ICIP)},
+  pages={2256--2260},
+  year={2016},
+  organization={IEEE}
+}
+
+@inproceedings{zhang2017fast,
+  title={Fast haze removal for nighttime image using maximum reflectance prior},
+  author={Zhang, Jing and Cao, Yang and Fang, Shuai and Kang, Yu and Wen Chen, Chang},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={7418--7426},
+  year={2017}
+}
+
+
+@inproceedings{pei2012nighttime,
+  title={Nighttime haze removal using color transfer pre-processing and dark channel prior},
+  author={Pei, Soo-Chang and Lee, Tzu-Yen},
+  booktitle={2012 19th IEEE International Conference on Image Processing},
+  pages={957--960},
+  year={2012},
+  organization={IEEE}
+}
+
+
+
+
+@inproceedings{li2015nighttime,
+  title={Nighttime haze removal with glow and multiple light colors},
+  author={Li, Yu and Tan, Robby T and Brown, Michael S},
+  booktitle={Proceedings of the IEEE international conference on computer vision},
+  pages={226--234},
+  year={2015}
+}
+
+
+
+
 @article{meng2020gia,
   title={GIA-Net: Global Information Aware Network for Low-light Imaging},
   author={Meng, Zibo and Xu, Runsheng and Ho, Chiu Man},
